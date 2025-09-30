@@ -1,9 +1,6 @@
 # 使用官方 Uptime Kuma 镜像作为基础
 FROM louislam/uptime-kuma:1
 
-# 作者信息（可选）
-LABEL maintainer="Your Name <your-email@example.com>"
-
 # 将我们的自定义启动脚本复制到容器的 /app 目录下
 COPY entrypoint.sh /app/entrypoint.sh
 
